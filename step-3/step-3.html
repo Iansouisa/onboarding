@@ -29,18 +29,18 @@
 
       <!-- Progress indicator -->
       <div class="flex items-center gap-2">
-        <span class="text-xs whitespace-nowrap text-zinc-400">Step 1 of 4</span>
+        <span class="text-xs whitespace-nowrap text-zinc-400">Step 3 of 4</span>
         <div class="h-1 w-36 overflow-hidden rounded-full bg-white/10">
           <!-- Update width inline per step: 33% = step 1, 66% = step 2, 100% = step 3 -->
           <div
             class="bg-de-red h-full rounded-full transition-all duration-500"
-            style="width: 25%"
+            style="width: 75%"
           ></div>
         </div>
       </div>
     </header>
 
-    <!-- ── HEADING SECTION ── -->
+    <!-- ── HEADING SECTION (dark bg) ── -->
     <section class="flex w-full justify-center px-6 pt-16 max-sm:px-4">
       <div class="flex w-full max-w-3xl flex-col">
         <!-- Step pill -->
@@ -246,7 +246,7 @@
       <!-- NAV BUTTONS -->
       <div class="mt-10 flex w-full items-center justify-between gap-3">
         <a
-          href="#"
+          href="/step-2"
           class="hover:border-bg-dark hover:text-bg-dark flex items-center gap-2 rounded-lg border border-black/10 bg-white px-5 py-3 text-sm font-bold text-zinc-400 no-underline transition-colors"
         >
           <svg
@@ -262,7 +262,7 @@
           Previous
         </a>
         <a
-          href="/step-2"
+          href="/step-4"
           class="bg-de-red flex items-center gap-2 rounded-lg px-5 py-3 text-sm font-bold text-white no-underline transition-colors hover:opacity-90"
         >
           Next Step
